@@ -18,10 +18,11 @@ Table: ```Products```
 | low_fats    | enum    |
 | recyclable  | enum    |
 +-------------+---------+
-```
+
 product_id is the primary key.  
 low_fats is an ENUM of type ('Y', 'N')  
 recyclable is an ENUM of type ('Y', 'N')  
+```
 
 ## 💡 Solution
 ```sql
@@ -34,10 +35,10 @@ WHERE
   AND recyclable = "Y";
 ```
 ## 🧠 Key Learnings  
-1. Basic WHERE Clause: Filtering rows based on conditions  
-2. AND Operator: Combining multiple conditions (both must be true)  
-3. ENUM Handling: Working with categorical data stored as ENUM types  
-4. Simple SELECT: Returning only specific columns instead of all columns  
+1. **Basic WHERE Clause:** Filtering rows based on conditions  
+2. **AND Operator:** Combining multiple conditions (both must be true)  
+3. **ENUM Handling:** Working with categorical data stored as ENUM types  
+4. **Simple SELECT:** Returning only specific columns instead of all columns  
 
 ## 🔄 Alternative Approach
 ```sql
@@ -56,5 +57,5 @@ Note: This demonstrates alternative logic but is not recommended for simple prob
 - Optimal for large datasets  
 
 ## 📚 Related Problems
-- Next Step: 584. Find Customer Referee - Similar filtering with different conditions  
-- Similar Concept: 595. Big Countries - Multiple OR conditions in WHERE clause
+- **Next Step:** 584. Find Customer Referee - Similar filtering with different conditions  
+- **Similar Concept:** 595. Big Countries - Multiple OR conditions in WHERE clause
