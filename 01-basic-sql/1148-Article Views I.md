@@ -1,7 +1,7 @@
 # 1148. Article Views I
 
 **Difficulty:** Easy  
-**Topics:** `Basic Filtering`, `WHERE Clause`, `ORDER BY`, `DISTINCT Keyword`, `Duplicate Removal`, `Self-Comparison`	
+**Topics:** `Basic Filtering`, `WHERE Clause`, `ORDER BY`, `DISTINCT Keyword`, `Duplicate Removal`, `Self-Comparison`  
 **LeedCode Link:** https://leetcode.com/problems/article-views-i/
 
 ## ❓ Problem Statement
@@ -35,6 +35,21 @@ FROM
   Views
 WHERE
   author_id = viewer_id
+ORDER BY
+  id;
+```
+
+## 🔄 Alternative Approach
+```sql
+-- Using GROUP BY
+SELECT
+  author_id AS id
+FROM
+  Views
+WHERE
+  author_id = viewer_id
+GROUP BY
+  author_id
 ORDER BY
   id;
 ```
