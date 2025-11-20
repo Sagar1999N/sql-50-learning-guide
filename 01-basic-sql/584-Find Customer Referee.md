@@ -1,7 +1,7 @@
 # 584. Find Customer Referee
 
 **Difficulty:** Easy  
-**Topics:** `Basic Filtering`, `WHERE Clause`, `OR`, `OR Operator`, `Inequality Conditions`  
+**Topics:** `Basic Filtering`, `WHERE Clause`, `OR Operator`, `Inequality Conditions`  
 **LeedCode Link:** https://leetcode.com/problems/find-customer-referee/
 
 ## ❓ Problem Statement
