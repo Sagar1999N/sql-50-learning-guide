@@ -2,7 +2,7 @@
 
 **Difficulty:** Easy  
 **Topics:** `Basic Filtering`, `WHERE Clause`, `OR`, `OR Operator`, `Inequality Conditions`  
-**LeedCode Link:** https://leetcode.com/problems/recyclable-and-low-fat-products/
+**LeedCode Link:** https://leetcode.com/problems/find-customer-referee/
 
 ## ❓ Problem Statement
 Find the names of the customer that are either:
