@@ -1,7 +1,7 @@
 # 1581. Customer Who Visited but Did Not Make Any Transactions
 
 **Difficulty:** Easy  
-**Topics:** `GROUP BY`, `COUNT`, `NOT IN`, `Subqueries`/`LEFT JOIN`
+**Topics:** `GROUP BY`, `COUNT`, (`NOT IN`, `Subqueries`)/`LEFT JOIN`
 **LeedCode Link:** https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/
 
 ## ❓ Problem Statement
