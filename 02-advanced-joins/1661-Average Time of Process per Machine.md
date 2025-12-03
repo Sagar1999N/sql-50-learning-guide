@@ -1,7 +1,7 @@
 # 1661. Average Time of Process per Machine
 
 **Difficulty:** Easy  
-**Topics:** `Date Functions`, `Self-Join`, `Comparative Analysis`, `Subqueries`/`JOIN`
+**Topics:** `Group by`, `Average`, `Self-Join`, `Round`
 **LeedCode Link:** https://leetcode.com/problems/average-time-of-process-per-machine/
 
 ## ❓ Problem Statement
@@ -50,18 +50,4 @@ ON
   AND b.activity_type = "end"
 GROUP BY
   a.machine_id;
-```
-
-## 🔄 Alternative Approach
-```sql
--- Using JOIN
-SELECT
-  a.id AS Id
-FROM
-  Weather a
-JOIN
-  Weather b
-ON
-  a.recordDate = DATE_ADD(b.recordDate, INTERVAL 1 DAY)
-  WHERE a.temperature > b.temperature;
 ```
