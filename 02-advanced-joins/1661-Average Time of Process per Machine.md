@@ -1,7 +1,7 @@
 # 1661. Average Time of Process per Machine
 
 **Difficulty:** Easy  
-**Topics:** `Group by`, `Average`, `Self-Join`, `Round`
+**Topics:** `Group by`, `Average`, `Self-Join`, `Round`  
 **LeedCode Link:** https://leetcode.com/problems/average-time-of-process-per-machine/
 
 ## ❓ Problem Statement
