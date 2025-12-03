@@ -27,6 +27,20 @@ This table contains information about the temperature on a certain day.
 
 ## 💡 Solution
 ```sql
+-- Using JOIN
+SELECT
+  a.id AS Id
+FROM
+  Weather a
+JOIN
+  Weather b
+ON
+  a.recordDate = DATE_ADD(b.recordDate, INTERVAL 1 DAY)
+  WHERE a.temperature > b.temperature;
+```
+
+## 🔄 Alternative Approach
+```sql
 -- Using Subquery
 SELECT
   b.id AS Id
@@ -43,16 +57,3 @@ WHERE
       a.recordDate) = 1);
 ```
 
-## 🔄 Alternative Approach
-```sql
--- Using JOIN
-SELECT
-  a.id AS Id
-FROM
-  Weather a
-JOIN
-  Weather b
-ON
-  a.recordDate = DATE_ADD(b.recordDate, INTERVAL 1 DAY)
-  WHERE a.temperature > b.temperature;
-```
