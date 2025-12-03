@@ -1,7 +1,7 @@
 # 197. Rising Temperature
 
 **Difficulty:** Easy  
-**Topics:** `Date Functions`, `Self-Join`, `Comparative Analysis`, `Subqueries`/`JOIN`
+**Topics:** `Date Functions`, `Self-Join`, `Comparative Analysis`, `Subqueries`/`JOIN`  
 **LeedCode Link:** https://leetcode.com/problems/rising-temperature/
 
 ## ❓ Problem Statement
